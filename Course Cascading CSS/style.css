@@ -1,0 +1,47 @@
+/* t.b=1-if two selector is same name 
+id:id class:class tag:tag
+
+the second one is excuted
+the blue is excuted 
+*/
+/* 
+#item{
+    color: red;
+}
+#item{
+    color: blue;
+} */
+/* ............................................................ */
+/* t.b=2- prtorty(id,class,tag)
+if the namber is greter than the will be excute */
+ /* selector (tag=0,1,0) */
+/* .item{     
+    color: red;
+} */
+ /*selector (tag=1,0,0) */
+ /* #item{      
+    color: blue;
+}  */
+
+/* the seond tag is 1 grater thean 0 */
+
+/* ............................................................ */
+/* t.b=3 :if do you have the  type 
+of css the excute is same this
+
+1-inline 
+2-embbded 
+3-external */
+/* t.b=3 the red is excute becuse is inline style */
+/* .item{
+    color:rgb(238, 255, 2);
+} */
+
+/* ............................................................ */
+/* t.b=4 if do you want any one to excute 
+add !important to last of value */
+
+.item{
+    color: green !important;
+}
+
